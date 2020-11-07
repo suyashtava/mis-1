@@ -1,0 +1,62 @@
+.previous-stay-top-blue-border {
+  margin: 10px;
+  background-color: white;
+  border-top: solid #0088cc;
+  padding: 10px;
+  font-size: 0.8em;
+}
+
+.stay-details-form {
+  padding: 10px;
+}
+
+.stay-details-from {
+  display: inline-block;
+  padding-right: 10px;
+  width: 25%;
+}
+
+.stay-details-to {
+  display: inline-block;
+  padding: 0px 10px;
+  width: 25%;
+}
+
+.stay-details-district {
+  display: inline-block;
+  padding-left: 10px;
+  width: 50%;
+}
+
+@media (max-width: 912px) {
+  .stay-details-from {
+    width: 50%;
+  }
+  
+  .stay-details-to {
+    width: 50%;
+  }
+
+  .stay-details-district {
+    display: block;
+    padding-left: 0px;
+    margin-top: 10px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 466px) {
+  .stay-details-from {
+    display: block;
+    width: 100%;
+    padding-right: 0px;
+    margin-top: 10px;
+  }
+  
+  .stay-details-to {
+    display: block;
+    width: 100%;
+    padding: 0px;
+    margin-top: 10px;
+  }
+}

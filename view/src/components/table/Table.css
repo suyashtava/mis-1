@@ -1,0 +1,17 @@
+.table {
+  width: 100%;
+}
+
+.admin-dashboard {
+  width: 100%;
+}
+
+.dash-employee-name {
+  width: 14%;
+}
+
+th,td {
+  border-collapse: collapse;
+  border: 1px solid #b9b8b8;
+  text-align: center;
+}

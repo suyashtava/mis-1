@@ -1,0 +1,83 @@
+.bank-details {
+  margin: 10px 10px;
+}
+
+.form-head {
+  padding: 7px;
+  text-align: left;
+  font-size: 1.1em;
+  color: white;
+  background-color: #0088cc;
+}
+
+.bank-form-details {
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  display: flex;
+}
+
+.bank-name {
+  padding-left: 3px;
+  padding-right: 60px;
+  text-align: left;
+  display: inline-block;
+  flex: 0.49;
+}
+
+.bank-name-field {
+  border: 1px solid lightgrey;
+  border-radius: 0px;
+  padding: 6px;
+  width: 98%;
+}
+
+.account-number {
+  text-align: left;
+  display: inline-block;
+  flex: 0.49;
+}
+
+.account-number-field {
+  border: 1px solid lightgrey;
+  border-radius: 0px;
+  padding: 6px;
+  width: 98%;
+}
+
+@media (min-width: 533px) and (max-width: 812px) {
+  .bank-form-details {
+    display: flex;
+  }
+
+  .bank-name {
+    flex: 0.49;
+  }
+
+  .account-number {
+    flex: 0.49;
+  }
+}
+
+@media (max-width: 533px) {
+  .bank-form-details {
+    display: block;
+    padding: 3px;
+    padding-right: 9px;
+  }
+
+  .bank-name {
+    width: 100%;
+    margin: 10px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+  }
+
+  .account-number {
+    width: 97%;
+    margin: 10px;
+    padding-right: 10px;
+  }
+}

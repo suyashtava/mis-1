@@ -1,0 +1,6 @@
+.rejected-paragraph {
+  padding: 20px;
+  padding-bottom: 10px;
+  background-color: #fde0e0;
+  border-left: 7px solid rgb(255, 167, 167);
+}

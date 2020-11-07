@@ -1,0 +1,43 @@
+.approved-tag {
+  border-radius: 6px;
+  padding: 3px;
+  text-align: center;
+  font-size: 0.8em;
+  color: white;
+  background-color: #47d147;
+  width: 70px;
+  margin: 0 auto;
+}
+
+.rejected-tag {
+  border-radius: 6px;
+  padding: 3px;
+  text-align: center;
+  font-size: 0.8em;
+  color: white;
+  background-color: #ff3333;
+  width: 65px;
+  margin: 0 auto;
+}
+
+.pending-tag {
+  border-radius: 6px;
+  padding: 3px;
+  text-align: center;
+  font-size: 0.8em;
+  color: white;
+  background-color: #3399ff;
+  width: 65px;
+  margin: 0 auto;
+}
+
+.mailed-send {
+  border-radius: 6px;
+  padding: 3px;
+  text-align: center;
+  font-size: 0.8em;
+  color: white;
+  background-color: #47d147;
+  width: 60px;
+  margin: 0 auto;
+}

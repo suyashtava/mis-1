@@ -1,0 +1,24 @@
+.other-details {
+  background-color: white;
+  border-top: solid #0088cc;
+  margin: 10px;
+}
+
+.other-details-input {
+  padding: 3px 10px;
+  text-align: left;
+  display: inline-block;
+  width: 33%;
+}
+
+.email-icon {
+  padding: 6px 15px;
+  border: 1px solid rgb(197, 196, 196);
+  background-color: #f2f2f2;
+}
+
+@media (max-width: 640px) {
+  .other-details-input {
+    width: 100%;
+  }
+}

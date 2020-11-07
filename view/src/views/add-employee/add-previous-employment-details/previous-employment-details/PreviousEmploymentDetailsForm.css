@@ -1,0 +1,97 @@
+.previous-employment-details-top-blue-border {
+  text-align: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: white;
+  border-top: solid #0088cc;
+}
+
+.from {
+  display: inline-block;
+  width: 25%;
+  padding-right: 10px;
+}
+
+.to {
+  display: inline-block;
+  width: 25%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.position-held {
+  display: inline-block;
+  width: 25%;
+  padding-right: 10px;
+}
+
+.pay-scale {
+  display: inline-block;
+  width: 25%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.remarks {
+  display: inline-block;
+  width: 50%;
+  padding-left: 10px;
+}
+
+@media (max-width: 912px) {
+  .remarks {
+    display: block;
+    width: 100%;
+    padding-left: 0px;
+    margin-top: 10px;
+  }
+
+  .from {
+    width: 50%;
+  }
+  
+  .to {
+    width: 50%;
+    margin-top: 10px;
+  }
+  
+  .position-held {
+    width: 50%;
+    margin-top: 10px;
+  }
+  
+  .pay-scale {
+    width: 50%;
+  }
+}
+
+@media (max-width: 466px) {
+  .from {
+    width: 100%;
+    display: block;
+    padding-right: 0px;
+  }
+  
+  .to {
+    width: 100%;
+    display: block;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  
+  .position-held {
+    width: 100%;
+    padding-right: 0px;
+    display: block;
+  }
+  
+  .pay-scale {
+    width: 100%;
+    display: block;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 10px;
+  }
+}

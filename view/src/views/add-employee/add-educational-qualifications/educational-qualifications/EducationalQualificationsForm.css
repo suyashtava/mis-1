@@ -1,0 +1,102 @@
+.educational-qualifications-blue {
+  margin: 10px;
+  margin-top: 0px;
+  border-top: solid #0088cc;
+  background-color: white;
+  padding: 10px;
+  font-size: 0.8em;
+}
+
+.exam {
+  padding: 0px 10px;
+  width: 30%;
+  display: inline-block;
+}
+
+.college {
+  padding: 0px 10px;
+  width: 70%;
+  display: inline-block;
+}
+
+.course-year {
+  display: inline-block;
+  width: 50%;
+}
+
+.course {
+  padding: 0px 10px;
+  width: 70%;
+  display: inline-block;
+}
+
+.year {
+  padding: 0px 10px;
+  width: 30%;
+  display: inline-block;
+}
+
+.grade-division {
+  display: inline-block;
+  width: 50%;
+}
+
+.grade {
+  padding: 0px 10px;
+  width: 60%;
+  display: inline-block;
+}
+
+.division {
+  padding: 0px 10px;
+  width: 40%;
+  display: inline-block;
+}
+
+@media (max-width: 912px) {
+  .course-year {
+    display: block;
+    width: 100%;
+  }
+
+  .grade-division {
+    display: block;
+    padding-top: 10px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 466px) {
+  .exam {
+    display: block;
+    width: 100%;
+  }
+
+  .college {
+    display: block;
+    width: 100%;
+    padding-top: 10px;
+  }
+
+  .course {
+    display: block;
+    width: 100%;
+  }
+
+  .year {
+    display: block;
+    width: 100%;
+    padding-top: 10px;
+  }
+
+  .grade {
+    display: block;
+    width: 100%;
+  }
+
+  .division {
+    display: block;
+    width: 100%;
+    padding-top: 10px;
+  }
+}

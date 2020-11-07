@@ -1,0 +1,81 @@
+.family-members-details-blue {
+  margin: 10px;
+  background-color: white;
+  margin-top: 0px;
+  border-top: solid #0088cc;
+  padding: 10px;
+  font-size: 0.8em;
+}
+
+.family-member-name {
+  padding: 0px 10px;
+  display: inline-block;
+  width: 50%;
+}
+
+.family-member-relationship {
+  padding: 0px 10px;
+  display: inline-block;
+  width: 50%;
+}
+
+.family-member-dob {
+  padding: 0px 10px;
+  display: inline-block;
+  width: 50%;
+}
+
+.family-member-profession {
+  padding: 0px 10px;
+  display: inline-block;
+  width: 30%;
+}
+
+.family-member-active {
+  padding: 0px 10px;
+  display: inline-block;
+  width: 25%;
+}
+
+.family-member-address {
+  padding: 0px 10px;
+}
+
+.family-member-photo {
+  padding: 0px 10px;
+}
+
+.family-member-working {
+  border-radius: 0px;
+  background-color: green;
+}
+
+.family-member-not-working {
+  border-radius: 0px;
+  background-color: red;
+}
+
+.relationship-dob {
+  display: inline-block;
+  width: 50%;
+}
+
+@media (max-width: 864px) {
+  .family-member-name {
+    display: block;
+    width: 100%;
+  }
+
+  .relationship-dob {
+    width: 100%;
+    padding-top: 10px;
+  }
+
+  .family-member-profession {
+    width: 50%;
+  }
+
+  .family-member-active {
+    width: 50%;
+  }
+}

@@ -1,0 +1,212 @@
+.personal-details {
+  background-color: white;
+  margin: 10px;
+}
+
+.form-heading {
+  padding: 7px;
+  text-align: left;
+  font-size: 1.1em;
+  color: white;
+  background-color: #0088cc;
+}
+
+.form-details {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 3px;
+  padding-top: 3px;
+}
+
+.mandatory-field-info {
+  margin-left: 3px;
+  text-align: left;
+}
+
+.name {
+  text-align: left;
+}
+
+.salutation {
+  margin: 3px;
+  text-align: left;
+  display: inline-block;
+  width: 22%;
+}
+
+.first-name {
+  margin: 3px;
+  text-align: left;
+  display: inline-block;
+  width: 22%;
+}
+
+.middle-name {
+  margin: 3px;
+  text-align: left;
+  display: inline-block;
+  width: 22%;
+}
+
+.last-name {
+  margin: 3px;
+  text-align: left;
+  display: inline-block;
+  width: 22%;
+}
+
+.marital-status-dob-place-of-birth {
+  text-align: left;
+}
+
+.marital-status {
+  margin: 3px;
+  text-align: left;
+  display: inline-block;
+  width: 25%;
+}
+
+.dob {
+  margin: 3px;
+  text-align: left;
+  display: inline-block;
+  width: 25%;
+}
+
+.place-of-birth {
+  margin: 3px;
+  text-align: left;
+  display: inline-block;
+  width: 25%;
+}
+
+.gender-pwd-kashmiri-immigrant {
+  text-align: left;
+}
+
+.gender {
+  margin: 3px;
+  text-align: left;
+  display: inline-block;
+  width: 25%;
+}
+
+.select-gender {
+  padding-top: 15px;
+  padding-left: 30px;
+}
+
+.pwd {
+  margin: 3px;
+  text-align: left;
+  display: inline-block;
+  width: 25%;
+}
+
+.select-pwd {
+  padding-top: 17px;
+  padding-left: 30px;
+}
+
+.kashmiri-immigrant {
+  margin: 3px;
+  text-align: left;
+  display: inline-block;
+  width: 25%;
+}
+
+.select-kashmiri-immigrant {
+  padding-top: 17px;
+  padding-left: 30px;
+}
+
+.father-mother {
+  text-align: left;
+}
+
+.father-name {
+  margin: 3px;
+  text-align: left;
+  display: inline-block;
+  width: 25%;
+}
+
+.mother-name {
+  margin: 3px;
+  text-align: left;
+  display: inline-block;
+  width: 25%;
+}
+
+.category-nationality-religion {
+  text-align: left;
+}
+
+.category {
+  margin: 3px;
+  text-align: left;
+  display: inline-block;
+  width: 25%;
+}
+
+.nationality {
+  margin: 3px;
+  text-align: left;
+  display: inline-block;
+  width: 25%;
+}
+
+.religion {
+  margin: 3px;
+  text-align: left;
+  display: inline-block;
+  width: 25%;
+}
+
+.photograph {
+  margin: 3px;
+  text-align: left;
+}
+
+.upload-photo {
+  margin: 3px;
+  border: 1px solid lightgrey;
+  height: 100px;
+}
+
+.signature {
+  margin: 3px;
+  text-align: left;
+}
+
+.upload-sign {
+  margin: 3px;
+  border: 1px solid lightgrey;
+  height: 100px;
+}
+
+.display {
+  float: right;
+  width: 100px;
+  height: 97px;
+}
+
+#personal-detials-form-label {
+  margin: 3px 10px;
+}
+
+@media (max-width: 640px) {
+  #personal-detials-form-label {
+    margin: 5px 3px;
+    text-align: left;
+    width: 100%;
+  }
+
+  .upload-photo {
+    height: 140px;
+  }
+
+  .upload-sign {
+    height: 140px;
+  }
+}
